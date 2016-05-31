@@ -149,7 +149,9 @@ public class LruImageCache extends LruCache<String, Bitmap> implements ImageCach
     
 	/**
 	 * 该方法会判断当前sd卡是否存在，然后选择缓存地址
-	 * 
+	 * @param context 当前上下文
+	 * @param uniqueName 唯一名称
+	 * @return File 文件对象
 	 */
 	public static File getDiskCacheDir(Context context, String uniqueName) {
 		String cachePath;
@@ -168,7 +170,8 @@ public class LruImageCache extends LruCache<String, Bitmap> implements ImageCach
 	
 	/**
 	 * 获得应用version号码
-	 * 
+	 * @param context 当前上下文
+	 * @return int 当前应用版本号
 	 */
 	public static int getAppVersion(Context context) {
 		try {
