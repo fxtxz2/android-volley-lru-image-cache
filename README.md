@@ -30,5 +30,5 @@ public void init(Context context) {
 
 # Gradle引入
 ```Gradle
-compile 'com.zyl.androidlruimagecache:android-volley-lru-image-cache:0.0.2'// volley image lru cache
+compile 'com.zyl.androidlruimagecache:android-volley-lru-image-cache:0.0.1'// volley image lru cache
 ```
