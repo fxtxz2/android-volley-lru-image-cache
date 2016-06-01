@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.zyl.androidlruimagecache">
+    package="com.zyl.imagecache">
 
     <application
         android:allowBackup="true"
