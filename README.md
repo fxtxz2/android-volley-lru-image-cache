@@ -1,4 +1,4 @@
-[![bintray](https://api.bintray.com/packages/zyl/maven/android-volley-zyl-image-cache/images/download.svg)](https://bintray.com/zyl/maven/android-volley-zyl-image-cache/_latestVersion)
+[![bintray](https://img.shields.io/bintray/v/zyl/maven/android-volley-zyl-image-cache.svg)](https://bintray.com/zyl/maven/android-volley-zyl-image-cache/_latestVersion)
 # android-volley-lru-image-cache
 用于volley的图片缓存库:二级(内存和磁盘缓存)Lru图片缓存
 
